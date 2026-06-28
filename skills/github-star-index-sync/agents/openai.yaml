@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Star Index Sync"
+  short_description: "增量更新、重组和修正 Obsidian GitHub 星标索引"
+  default_prompt: "Use $github-star-index-sync to incrementally update my Obsidian GitHub Star index from README evidence."
