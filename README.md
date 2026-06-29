@@ -1,6 +1,8 @@
 # github-star-index-sync
 
-`github-star-index-sync` 是一个用于整理 GitHub Star 索引的 skill。它会读取 `github-star/*.md` 里的资料，结合仓库 README 证据，帮助你在 Obsidian 知识库中增量更新、重新生成或修正星标项目索引。
+`github-star-index-sync` 是一个用于整理 GitHub Star 索引的 skill。
+
+当你使用‘GitHub Integration’这个Obsidian插件将星标项目同步到你的本地知识库后，`github-star-index-sync` 会从本地的星标项目知识库里读取你星标过的GitHub项目资料，结合原项目仓库 README 证据，帮助你在 Obsidian 知识库中增量更新、重新生成或修正一个星标项目索引.md文档。
 
 这个仓库保存的是 skill 的源码、脚本和测试，适合直接从 GitHub 查看、维护和发布。
 
@@ -183,3 +185,7 @@ python3 skills/github-star-index-sync/scripts/build_index.py prepare --refresh o
 - GitHub 仓库链接
 - 项目用途
 - 适合用户
+
+## ROADMAP
+- [x] 一个能用的agent skill，兼容codex/claude code调用，读取obsidian仓库星标项目列表，读取GitHub项目仓库，生成格式化的索引文档内容
+- [ ] 优化skill的安装，兼容绝大部分支持agent skill的cli或具备GUI的agent工具
